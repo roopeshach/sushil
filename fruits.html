@@ -1,0 +1,23 @@
+<html>
+    <HEAD>
+        <title>fruits</title>
+    </HEAD>
+
+        <body>
+            
+            <div>
+                <p id="fruits"></p>
+            </div>
+        </body>
+
+        <script>
+            var fruits = ['apple', 'banana', 'kera', 'syau', 'mango']
+
+            var text = "";
+            var i;
+            for (i = 0; i < fruits.length; i++) {
+            text += fruits[i] + "<br>";
+            }
+            document.getElementById("fruits").innerHTML = text;
+        </script>
+</html>
